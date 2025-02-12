@@ -4,18 +4,14 @@ import Chart from "../components/Chart"
 function Dashboard() {
   return (
     <div>
-        <h1>Dashboard</h1>
+        <h2 className="mb-4 text-xl md:text-2xl font-serif">Dashboard</h2>
         <Dashboardcard/>
       
-      <div>
-        <h2>Recent Revenue</h2>
+      <div className="">
         <Chart/>
       </div>
       
-      <div>
-        <h2>Latest Invoice</h2>
-        
-      </div>
+      
 
     </div>
   )
